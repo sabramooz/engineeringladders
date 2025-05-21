@@ -1,69 +1,39 @@
-<!-- Start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-{% if site.google_analytics %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{% endif %}
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
-
 <!-- Import Vazir font -->
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
 
-<!-- Additional custom head content -->
+<!-- Minimal RTL and font styling that preserves the original theme -->
 <style>
-  /* RTL and font styling */
   body {
     direction: rtl;
-    text-align: right;
-    font-family: "Vazirmatn", "Tahoma", sans-serif;
+    font-family: "Vazirmatn", "Tahoma", sans-serif !important;
   }
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: right;
-  }
-
-  /* Fix table alignment for RTL */
-  table {
-    direction: rtl;
-  }
-
-  th, td {
-    text-align: right;
-  }
-
-  /* Fix list alignment for RTL */
-  ul, ol {
-    padding-right: 20px;
-    padding-left: 0;
-  }
-
-  /* Fix blockquote alignment for RTL */
-  blockquote {
-    border-left: none;
-    border-right: 4px solid #e8e8e8;
-    padding-left: 0;
-    padding-right: 15px;
-  }
-
-  /* Fix navigation and other elements that might need RTL adjustments */
+  
   .main-content {
     direction: rtl;
   }
-
-  /* Ensure images and charts display properly in RTL context */
-  .main-content img {
-    display: block;
-    margin: 0 auto;
+  
+  .main-content h1, 
+  .main-content h2, 
+  .main-content h3, 
+  .main-content h4, 
+  .main-content h5, 
+  .main-content h6,
+  .main-content p,
+  .main-content blockquote {
+    text-align: right;
+  }
+  
+  .main-content ul,
+  .main-content ol {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+  
+  table {
+    direction: rtl;
+  }
+  
+  th, td {
+    text-align: right;
   }
 </style>
-
-<!-- End custom head snippets -->
