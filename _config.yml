@@ -1,3 +1,9 @@
 theme: jekyll-theme-cayman
 title: Engineering Ladders
 description: A framework for Engineering Managers
+sass:
+  style: compressed
+  
+# Custom CSS
+custom_css:
+  - /assets/css/style.css

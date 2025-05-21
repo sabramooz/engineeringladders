@@ -1,0 +1,47 @@
+/* Import Vazir font */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+/* RTL and font styling */
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", "Tahoma", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: right;
+}
+
+/* Fix table alignment for RTL */
+table {
+  direction: rtl;
+}
+
+th, td {
+  text-align: right;
+}
+
+/* Fix list alignment for RTL */
+ul, ol {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+/* Fix blockquote alignment for RTL */
+blockquote {
+  border-left: none;
+  border-right: 4px solid #e8e8e8;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+/* Fix navigation and other elements that might need RTL adjustments */
+.main-content {
+  direction: rtl;
+}
+
+/* Ensure images and charts display properly in RTL context */
+.main-content img {
+  display: block;
+  margin: 0 auto;
+}
