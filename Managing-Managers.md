@@ -1,97 +1,97 @@
-# Managing Managers
+# مدیریت مدیران
 
-## Introduction
+## مقدمه
 
-When you get to higher levels of the manager's ladder, chances are that some of your direct reports will be other managers. 
-The manager's actions have a bigger impact on their teams and therefore you need to set expectations differently.
+وقتی به سطوح بالاتر نردبان مدیریت می‌رسید، احتمالاً برخی از گزارش‌دهندگان مستقیم شما مدیران دیگری خواهند بود. 
+اقدامات مدیر تأثیر بیشتری بر تیم‌های خود دارند و بنابراین شما باید انتظارات را به شکل متفاوتی تنظیم کنید.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/charts/dashboard-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="/charts/dashboard.png">
-  <img alt="Dashboard" src="/charts/dashboard.png">
+  <img alt="داشبورد" src="/charts/dashboard.png">
 </picture>
 
-How do you assess the managing skills of other managers?
-Managers face conflicting forces all the time, and a big part of their job is to keep things balanced.
-In order to set the right expectations and measure the manager's success, it is important to evaluate how balanced the following areas are:
+چگونه مهارت‌های مدیریتی سایر مدیران را ارزیابی می‌کنید؟
+مدیران همیشه با نیروهای متضاد روبرو هستند، و بخش بزرگی از کار آنها حفظ تعادل است.
+برای تنظیم انتظارات درست و سنجش موفقیت مدیر، مهم است که ارزیابی کنیم چقدر حوزه‌های زیر متعادل هستند:
 
 
-## Delivery
+## تحویل
 
-Managers constantly face push from the Business to deliver value quickly while feeling the pressure from the team to deliver high-quality solutions.
+مدیران به طور مداوم از طرف کسب و کار تحت فشار هستند تا ارزش را سریعاً تحویل دهند در حالی که فشار از طرف تیم را برای ارائه راه‌حل‌های با کیفیت بالا احساس می‌کنند.
 
-![Delivery](/charts/dashboard-delivery.png)
+![تحویل](/charts/dashboard-delivery.png)
 
-| Business Impact | Technical Excellence |
+| تأثیر کسب و کار | برتری فنی |
 | :--- | :--- |
-| Speed | Quality |
-| Customer Feedback | Code Maintainability |
-| Opportunity Cost | Tech Debt Cost |
+| سرعت | کیفیت |
+| بازخورد مشتری | قابلیت نگهداری کد |
+| هزینه فرصت | هزینه بدهی فنی |
 
 
-## Goals
+## اهداف
 
-Aligning the team's goals and the individual's goals is critical to ensure a scenario where the team delivers value to the organization while its members make progress in their careers. The manager should try to create a win-win scenario where both sides (team and individual) get something in return.
+هم‌راستا کردن اهداف تیم و اهداف فردی برای اطمینان از سناریویی که در آن تیم ارزش را به سازمان تحویل می‌دهد در حالی که اعضای آن در مسیر شغلی خود پیشرفت می‌کنند، بسیار مهم است. مدیر باید تلاش کند تا سناریوی برد-برد ایجاد کند که در آن هر دو طرف (تیم و فرد) چیزی در ازای آن دریافت کنند.
 
-![Goals](/charts/dashboard-goals.png)
+![اهداف](/charts/dashboard-goals.png)
 
-| Team | Individuals |
+| تیم | افراد |
 | :--- | :--- |
-| Business Needs | Career Focus |
-| Team Expectations | Personal Interests |
-| Group Performance | Individual Performance |
+| نیازهای کسب و کار | تمرکز شغلی |
+| انتظارات تیم | علایق شخصی |
+| عملکرد گروهی | عملکرد فردی |
 
 
-## Planning
+## برنامه‌ریزی
 
-Although short-term vs long-term planning is sometimes seen as a "business vs tech" type of discussion (see [Delivery](#delivery)), this is not always true. In many cases, the manager needs to balance the trade-offs between a quick business (or technical) solution and a long-term one. Do we fix this bug quickly or invest in a proper technical solution? Do we create a quick throw-away spike or we invest in a well-designed feature?
+اگرچه برنامه‌ریزی کوتاه‌مدت در مقابل بلندمدت گاهی به عنوان نوعی بحث "کسب و کار در مقابل فناوری" دیده می‌شود (به [تحویل](#تحویل) مراجعه کنید)، اما این همیشه درست نیست. در بسیاری از موارد، مدیر باید بین معاملات یک راه‌حل سریع کسب و کار (یا فنی) و یک راه‌حل بلندمدت تعادل برقرار کند. آیا این باگ را سریعاً رفع می‌کنیم یا در یک راه‌حل فنی مناسب سرمایه‌گذاری می‌کنیم؟ آیا یک نمونه اولیه سریع و دور انداختنی ایجاد می‌کنیم یا در یک ویژگی با طراحی خوب سرمایه‌گذاری می‌کنیم؟
 
-![Planning](/charts/dashboard-planning.png)
+![برنامه‌ریزی](/charts/dashboard-planning.png)
 
-| Short-Term | Long-Term |
+| کوتاه‌مدت | بلندمدت |
 | :--- | :--- |
-| Weekly Plan | Quarterly Plan |
-| Spike | Well Thought Out Design |
-| Solve Quickly | Solve Properly |
+| برنامه هفتگی | برنامه سه‌ماهه |
+| نمونه اولیه | طراحی با تفکر عمیق |
+| حل سریع | حل درست |
 
 
-## Oversight
+## نظارت
 
-Managers usually have a hard time balancing how to delegate effectively without losing the control over their teams. Staying connected to the details without interfering is certainly one the most difficult tasks for a manager (especially for managers of managers). It is important for managers to empower the team to make decisions while being on top of what is going on.
+مدیران معمولاً در برقراری تعادل بین چگونگی تفویض اختیار موثر بدون از دست دادن کنترل بر تیم‌های خود مشکل دارند. ارتباط با جزئیات بدون دخالت قطعاً یکی از دشوارترین وظایف برای یک مدیر است (به ویژه برای مدیران مدیران). مهم است که مدیران تیم را برای تصمیم‌گیری توانمند کنند در حالی که بر آنچه در حال وقوع است تسلط دارند.
 
-![Oversight](/charts/dashboard-oversight.png)
+![نظارت](/charts/dashboard-oversight.png)
 
-| Control | Delegation |
+| کنترل | تفویض اختیار |
 | :--- | :--- |
-| Micromanaging | Empowerment |
-| Connected to Details | Big Picture |
-| Auditing | Trust |
+| مدیریت جزئی | توانمندسازی |
+| متصل به جزئیات | تصویر بزرگ |
+| حسابرسی | اعتماد |
 
-## Relationships
+## روابط
 
-Most managers will excel at building relationships with their direct reports (managing down) and with their supervisor (managing up), but they tend to undervalue their relationships with the rest of the organization (managing across). Lack of focus on horizontal relationships adds risk to cross-team initiatives and reduces the manager's visibility of the team's impact.
+اکثر مدیران در ایجاد روابط با گزارش‌دهندگان مستقیم خود (مدیریت به پایین) و با سرپرست خود (مدیریت به بالا) برتری خواهند داشت، اما آنها تمایل دارند روابط خود را با بقیه سازمان (مدیریت افقی) کم‌ارزش بدانند. عدم تمرکز بر روابط افقی، ریسک ابتکارات بین تیمی را افزایش می‌دهد و دید مدیر از تأثیر تیم را کاهش می‌دهد.
 
-![Relationships](/charts/dashboard-relationships.png)
+![روابط](/charts/dashboard-relationships.png)
 
-| Vertical (Managing Down / Up) | Horizontal (Managing Across) |
+| عمودی (مدیریت به پایین / بالا) | افقی (مدیریت افقی) |
 | :--- | :--- |
-| Supervisor(s) | Stakeholders |
-| Direct Reports | Peers / Other Teams |
-| Indirect Reports | Users |
+| سرپرست(ان) | ذینفعان |
+| گزارش‌دهندگان مستقیم | همتایان / تیم‌های دیگر |
+| گزارش‌دهندگان غیرمستقیم | کاربران |
 
-## Conclusion
+## نتیجه‌گیری
 
-Assessing managers requires a slightly different perspective, their actions have a bigger impact on their teams and therefore they are in charge of keeping things balanced.
+ارزیابی مدیران نیاز به دیدگاه کمی متفاوت دارد، اقدامات آنها تأثیر بیشتری بر تیم‌های خود دارند و بنابراین آنها مسئول حفظ تعادل هستند.
 
-Managers should balance each area —delivery, goals, planning, oversight and relationships— in a way that is sustainable over time. Not all areas might require to be balanced the same way; the seniority of the team, company culture, and business context might move the arrow closer to one side or the other, the green area is a range and not a single value. Having said that, it is important to avoid getting too close to any of the extremes.
+مدیران باید هر حوزه —تحویل، اهداف، برنامه‌ریزی، نظارت و روابط— را به گونه‌ای متعادل کنند که در طول زمان پایدار باشد. ممکن است همه حوزه‌ها نیاز به تعادل یکسان نداشته باشند؛ ارشدیت تیم، فرهنگ شرکت و زمینه کسب و کار ممکن است فلش را به یک سمت یا سمت دیگر نزدیک‌تر کند، منطقه سبز یک محدوده است و نه یک مقدار واحد. با این حال، مهم است که از نزدیک شدن بیش از حد به هر یک از افراط‌ها جلوگیری شود.
 
-In summary, understanding how each manager is performing on every area is a good way to assess their performance and therefore a great opportunity to have meaningful career conversations with them.
+به طور خلاصه، درک اینکه هر مدیر در هر حوزه چگونه عمل می‌کند، راه خوبی برای ارزیابی عملکرد آنها و بنابراین فرصتی عالی برای داشتن گفتگوهای شغلی معنادار با آنهاست.
 
-# Other Pages
+# صفحات دیگر
 
-* [**Introduction**](README.md)
-* [**Developer**](Developer.md)
-* [**Tech Lead**](TechLead.md)
-* [**Technical Program Manager**](TechnicalProgramManager.md)
-* [**Engineering Manager**](EngineeringManager.md)
-* [**Tech Lead vs Engineering Manager**](TechLead-EngineeringManager.md)
+* [**مقدمه**](README.md)
+* [**توسعه‌دهنده**](Developer.md)
+* [**رهبر فنی**](TechLead.md)
+* [**مدیر برنامه فنی**](TechnicalProgramManager.md)
+* [**مدیر مهندسی**](EngineeringManager.md)
+* [**رهبر فنی در مقابل مدیر مهندسی**](TechLead-EngineeringManager.md)

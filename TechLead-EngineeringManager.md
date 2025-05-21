@@ -1,40 +1,40 @@
-# Tech Lead vs Engineering Manager
+# رهبر فنی در مقابل مدیر مهندسی
 
-It is very common for companies to mix the Tech Lead and Engineering Manager roles. Although both roles have some overlap, their focus is different: the Tech Lead is in charge of the *System* while the Engineering Manager is in charge of the *People*.
+بسیار رایج است که شرکت‌ها نقش‌های رهبر فنی و مدیر مهندسی را با هم ترکیب کنند. اگرچه هر دو نقش دارای برخی همپوشانی‌ها هستند، اما تمرکز آنها متفاوت است: رهبر فنی مسئول *سیستم* است در حالی که مدیر مهندسی مسئول *افراد* است.
 
-If the team is small and/or the leader has a lot of experience as Engineering Manager and Tech Lead, the same person might perform both roles. But as the system and team grow in size and complexity, there might be an opportunity to have different people for each role.
+اگر تیم کوچک باشد و/یا رهبر تجربه زیادی به عنوان مدیر مهندسی و رهبر فنی داشته باشد، ممکن است یک شخص هر دو نقش را انجام دهد. اما با رشد سیستم و تیم در اندازه و پیچیدگی، ممکن است فرصتی برای داشتن افراد مختلف برای هر نقش وجود داشته باشد.
 
-The following is a non-exhaustive list that exemplifies some of the different responsibilities of each role:
+موارد زیر فهرستی غیرجامع است که برخی از مسئولیت‌های متفاوت هر نقش را نشان می‌دهد:
 
-| [Tech Lead](TechLead.md) (System) | [Engineering Manager](EngineeringManager.md) (People)|
+| [رهبر فنی](TechLead.md) (سیستم) | [مدیر مهندسی](EngineeringManager.md) (افراد)|
 | :--- | :--- |
-| Technical Excellence and Innovation| Career Planning, Promotions and Coaching |
-| Architecture and System Integration | Headcount Planning and Hiring |
-| Tech Mentoring, Adoption and Alignment | Team Planning and Delivery |
-| Technical Spikes and Experiments​ | Objectives, Performance and Feedback |
-| Code Reviews and Feedback | One on Ones |
-| System Design Presentations​ | Participation in Technical Decisions |
-| Technical Capacity Planning​ | Cascading Communications​ |
-| Production Issues Escalation​ | Team Building Activities and Culture​ |
-| System SLAs, Metrics & Monitoring​ | Team Protection and Happiness​ |
-| Platform Direction, Patterns and Practices | Team Productivity and Metrics​ |
-| Alignment with other Tech Leads​ | Alignment with other Dev Managers​ |
-| Hands-On Coding 30% to 70% of the Time | Hands-On Coding 0% to 30% of the Time |
-| System Roadmap (shared)​ | System Roadmap (shared)​ |
-| Development Process (shared)​ | Development Process (shared)​ |
-| Team Visibility and Recognition (shared) | Team Visibility and Recognition (shared)​ |
-| Ability to Act as Engineering Manager when Required | Ability to Act as Tech Lead when Required |
+| برتری فنی و نوآوری | برنامه‌ریزی شغلی، ارتقاء و مربیگری |
+| معماری و یکپارچه‌سازی سیستم | برنامه‌ریزی تعداد نیروی انسانی و استخدام |
+| مربیگری فنی، پذیرش و هم‌راستایی | برنامه‌ریزی و تحویل تیم |
+| بررسی‌های فنی و آزمایش‌ها | اهداف، عملکرد و بازخورد |
+| بررسی کد و بازخورد | جلسات یک به یک |
+| ارائه‌های طراحی سیستم | مشارکت در تصمیمات فنی |
+| برنامه‌ریزی ظرفیت فنی | ارتباطات آبشاری |
+| تشدید مشکلات تولید | فعالیت‌های تیم‌سازی و فرهنگ |
+| SLAها، معیارها و نظارت بر سیستم | محافظت از تیم و رضایت آن |
+| جهت پلتفرم، الگوها و روش‌ها | بهره‌وری تیم و معیارها |
+| هم‌راستایی با سایر رهبران فنی | هم‌راستایی با سایر مدیران توسعه |
+| کدنویسی عملی 30% تا 70% از زمان | کدنویسی عملی 0% تا 30% از زمان |
+| نقشه راه سیستم (مشترک) | نقشه راه سیستم (مشترک) |
+| فرآیند توسعه (مشترک) | فرآیند توسعه (مشترک) |
+| دید تیم و شناخت (مشترک) | دید تیم و شناخت (مشترک) |
+| توانایی عمل به عنوان مدیر مهندسی در صورت نیاز | توانایی عمل به عنوان رهبر فنی در صورت نیاز |
 
-The last point on each role highlights the fact that the lists are not mutually exclusive, and therefore many of the points from one side are also important on the other side too. An Engineering Manager that can't understand the technical challenges that the team is facing won't be successful at the role, the same is true for a Tech Lead that doesn't understand the career paths of the engineers in the team. 
+آخرین نکته در هر نقش این واقعیت را برجسته می‌کند که فهرست‌ها به طور متقابل انحصاری نیستند، و بنابراین بسیاری از نکات از یک طرف نیز در طرف دیگر مهم هستند. یک مدیر مهندسی که نمی‌تواند چالش‌های فنی که تیم با آن روبرو است را درک کند، در نقش خود موفق نخواهد بود، همین امر برای یک رهبر فنی که مسیرهای شغلی مهندسان در تیم را درک نمی‌کند نیز صادق است.
 
-Having said that, although it is important for an Engineering Manager to be able act as a Tech Lead and vice versa, it also critical for them to focus and excel at the right things. Although there is a clear overlap and an opportunity for collaboration, both positions must know well who is responsible for what to avoid conflicts and misunderstandings.
+با این حال، اگرچه مهم است که یک مدیر مهندسی بتواند به عنوان یک رهبر فنی عمل کند و برعکس، همچنین برای آنها حیاتی است که بر روی چیزهای درست تمرکز کنند و در آنها برتری یابند. اگرچه همپوشانی واضح و فرصتی برای همکاری وجود دارد، هر دو موقعیت باید به خوبی بدانند چه کسی مسئول چه چیزی است تا از تعارضات و سوء تفاهم‌ها جلوگیری شود.
 
 
-# Other Pages
+# صفحات دیگر
 
-* [**Introduction**](README.md)
-* [**Developer**](Developer.md)
-* [**Tech Lead**](TechLead.md)
-* [**Technical Program Manager**](TechnicalProgramManager.md)
-* [**Engineering Manager**](EngineeringManager.md)
-* [**Managing Managers**](Managing-Managers.md)
+* [**مقدمه**](README.md)
+* [**توسعه‌دهنده**](Developer.md)
+* [**رهبر فنی**](TechLead.md)
+* [**مدیر برنامه فنی**](TechnicalProgramManager.md)
+* [**مدیر مهندسی**](EngineeringManager.md)
+* [**مدیریت مدیران**](Managing-Managers.md)
